@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*button_style start*/
+.button_style{
+    font-size: 15px;
+    font-weight: 700px;
+    background-color: #f6ac66;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 40px;
+}
+
+/*button_style end*/
+
+/*Pottery Studio style start*/
+.pottery_studio{
+    background-image: url(./img/Image_1.png);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.pottery_studio_content{
+    padding: 250px 100px;
+}
+.pottery_studio_content h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.pottery_studio_content p{
+    font-size: 15px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+/*Pottery Studio style end*/
+/*div 2 style start*/
+.div_2{
+    height: 600px;
+}
+.div_2 .about{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 40px 60px;
+
+    
+}
+.div_2 .about h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: 200;
+
+}
+.div_2 .about p{
+    text-align: center;
+    padding: 30px ;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.div_2 .registration{
+    float: right;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(19, 16, 16);
+    color: white;
+    padding: 40px 60px;
+}
+.div_2 .registration h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight: 200;
+}
+.div_2 .registration p{
+    text-align: center;
+    padding: 30px ;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.go_button{
+    text-align: center;
+    padding: 0 150px;
+}
+/*div 2 style end*/
+/*div 3 style start*/
+.div_3{
+    height: 630px;
+    width: 100%;
+}
+.div_3 .workshop{
+    float: left;
+    width: 30%;
+    height: 630px;
+    background-color: rgb(230, 225, 225);
+    padding: 150px 60px;
+}
+.workshop h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.div_3 .workshop p{
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.div_3 .image{
+    background-image: url(./img/Image_2.png);
+    float: right;
+    width: 70%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
+/*div 3 style end*/
+
+/*div 4 style start*/
+.div_4{
+    height: 630px;
+    width: 100%;
+}
+.div_4 .image{
+    float: left;
+    background-image: url(./img/Image_3.png);
+    width: 70%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
+.div_4 .studio_mbs{
+    float: right;
+    width: 30%;
+    height: 630px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 150px 60px;
+}
+.studio_mbs h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.studio_mbs p{
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+/*div 4 style end*/
+
+/*div 5 style start*/
+
+.div_5{
+    width: 100%;
+    height: 550px;
+    background-image: url(./img/Image_4.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.div_5 .card{
+    width: 50%;
+    padding-top: 150px;
+    padding-right: 20%;
+    margin: 0 0 0 200px;
+    
+}
+.card_from{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(230, 225, 225);
+    color: rgb(0, 0, 0);
+    padding: 150px 90px;
+    position: absolute;
+}
+
+.card_from h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.card_from p{
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.card_from h2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+/*div 5 style end*/
+
+/*extra*/
+.div_line{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(34, 32, 32);
+    border-bottom: 1px solid #fff;
+}
+/*extra*/
+
+/*div 6 style start*/
+
+.div_6{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+.content h1{
+    padding-top: 150px ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+.content p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 0 300px ;
+}
+
+
+.div_6 form input{
+    padding: 13px;
+    width: 350px;
+    background-color: rgb(34, 32, 32);
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.div_6 form{
+    padding: 0 400px;
+}
+
+/*div 6 style end*/
